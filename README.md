@@ -14,7 +14,7 @@ Các lớp:
 
 _x, _y, _dx, _dy có kiểu là int, trong đó _x, _y là toạ độ điểm trái trên của kho hàng, _dx, _dy lần lượt là kích thước của kho hàng trên trục Ox, Oy ứng với góc nghiêng là 0. Ghi chú: hệ trục toạ độ Oxy được xây dựng theo chuẩn giống như [link](https://goo.gl/IgImbI)
 
-_angle có kiểu là double (do các hàm toán học có sẵn trong C# dùng kiểu double), đại diện cho góc nghiêng của kho hàng. Ghi chú: quy ước quay, xem phần Rotating của [link](https://goo.gl/CV2Ndm)
+_angle có kiểu là double (do các hàm toán học có sẵn trong C# dùng kiểu double), đại diện cho góc nghiêng của kho hàng. Ghi chú: quy ước quay, xem phần Rotating của [link](https://goo.gl/CV2Ndm), đơn vị rad
 
 _data có kiểu là mảng 2 chiều của Goods (vẫn chưa thống nhất về tổ chức cấu trúc dữ liệu ở đây, có nên sử dụng bảng thưa hay không, cần có bài viết bàn về cái này), đại diện cho danh sách các kiện hàng có trong kho.
 
