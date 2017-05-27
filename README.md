@@ -10,7 +10,7 @@ Các lớp:
 
 ## Lớp Warehouse sẽ có các thuộc tính và phương thức sau:
 
-1. Thuộc tính: private
+1. *Thuộc tính: private*
 
 _x, _y, _dx, _dy có kiểu là int, trong đó _x, _y là toạ độ điểm trái trên của kho hàng, _dx, _dy lần lượt là kích thước của kho hàng trên trục Ox, Oy ứng với góc nghiêng là 0. Ghi chú: hệ trục toạ độ Oxy được xây dựng theo chuẩn giống như [link](https://goo.gl/IgImbI)
 
@@ -18,7 +18,7 @@ _angle có kiểu là double (do các hàm toán học có sẵn trong C# dùng 
 
 _data có kiểu là mảng 2 chiều của Goods (vẫn chưa thống nhất về tổ chức cấu trúc dữ liệu ở đây, có nên sử dụng bảng thưa hay không, cần có bài viết bàn về cái này), đại diện cho danh sách các kiện hàng có trong kho.
 
-2. Phương thức: public → Cái này có thể chỉnh sửa lại cho phù hợp
+2. *Phương thức: public → Cái này có thể chỉnh sửa lại cho phù hợp*
 
 Khởi tạo: mặc định, kèm theo đó là 1 loạt các phương thức set. Khi đó việc khởi tạo sẽ như thế này: Warehouse dummy = (new Warehouse).setX(dummyX)....
 	
@@ -35,7 +35,7 @@ OutputGUI(void): void → Xuất dữ liệu dạng GUI (đây là yêu cầu 3)
 
 ## Lớp Goods sẽ có các thuộc tính và phương thức sau:
 
-1. Thuộc tính: private
+1. *Thuộc tính: private*
 
 _row, _col, _size, _price có kiểu là int, trong đó _row, _col là toạ độ theo dòng và theo cột của kiện hàng trong, _size là kích thước kiện hàng (1 hoặc 2), _price là đơn giá kiện hàng.
 	
@@ -43,7 +43,7 @@ _id có kiểu là String, đại diện cho mã kiện hàng.
 	
 _importDate có kiểu là DateTime (một kiểu dữ liệu trong C# được dùng để lưu ngày tháng năm), đại diện cho ngày nhập kho.
 
-2. Phương thức: public → Cái này có thể chỉnh sửa lại cho phù hợp
+2. *Phương thức: public → Cái này có thể chỉnh sửa lại cho phù hợp*
 
 Khởi tạo: mặc định, kèm theo đó là 1 loạt các phương thức set. Khi đó việc khởi tạo sẽ như thế này: Goods dummy = (new Goods).setRow(dummyRow)....
 
