@@ -23,7 +23,7 @@ _data có kiểu là mảng 2 chiều của Goods (vẫn chưa thống nhất v�
 
 Khởi tạo: mặc định, kèm theo đó là 1 loạt các phương thức set. Khi đó việc khởi tạo sẽ như thế này: Warehouse dummy = (new Warehouse).setX(dummyX)....
 	
-Input(String fileName): void → Nhập dữ liệu từ file
+Input(String fileContent): Warehouse → Nhập dữ liệu từ file
 	
 OutputConsole(void): void → Xuất dữ liệu ra màn hình Console (đây là yêu cầu 1)
 	
