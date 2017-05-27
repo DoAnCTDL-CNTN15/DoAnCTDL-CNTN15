@@ -4,7 +4,6 @@ Quy ước:
 
 
 Mỗi lớp được viết thành 1 file riêng, đặt tên file = tên lớp.
-
 Để tránh phức tạp thêm cho cái đồ án, ở đây không sử dụng tính kế thừa và đa hình của OOP nhé, trừ khi có giải thích hợp lý sự cần thiết việc sử dụng 2 tính chất này. Tính đóng gói vẫn bắt buộc.
 Các lớp:
 
