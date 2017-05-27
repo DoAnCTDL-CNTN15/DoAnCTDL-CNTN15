@@ -2,6 +2,7 @@
 
 ## Quy ước:
 
+Namespace = ObjectMovingProject
 
 Mỗi lớp được viết thành 1 file riêng, đặt tên file = tên lớp.
 
